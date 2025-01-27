@@ -1,0 +1,50 @@
+# ADA LOVELACE TRIBUTE PAGE
+
+> deux vues: une desktop et une mobile
+ le site est responsive
+
+## objectifs
+
+- use aspect-ratio
+- media queries
+- Owl Selector
+- ajouter du bold sur les éléments importants.
+
+ Vous trouverez les TechSpec dans le dossier "TechSpec" et les images dans le dossier "img"
+
+Le copy, ci-dessous.
+header:
+
+  title: ADA LOVELACE TRIBUTE PAGE
+  description: Ada Lovelace, la première programmeuse de l'histoire
+  description2: Ada Lovelace, de son nom complet Augusta Ada King, comtesse de Lovelace, née Ada Byron le 10 décembre 1815 à Londres et morte le 27 novembre 1852 à Marylebone dans la même ville, est une pionnière de la science informatique.
+
+main:
+ section1:
+  title: Ada Lovelace
+  texte: Elle est principalement connue pour avoir conçu et décrit le premier programme informatique publié, lors de son travail sur un ancêtre de l'ordinateur : la machine analytique de Charles Babbage. Le formalisme inédit de son algorithme, ainsi que la présence de la première boucle conditionnelle connue,
+   font qu'Ada Lovelace est largement considérée comme la première développeuse informatique de l'histoire. Elle a également entrevu et décrit certaines possibilités offertes par les calculateurs universels, allant bien au-delà du calcul numérique et de ce qu'imaginaient Babbage et ses contemporains
+
+ section2:
+  citation: “ Je crois que je possède une singulière combinaison de qualités, qui semble précisément ajustées pour me prédisposer à devenir une exploratrice des réalités cachées de la Nature. “
+  auteur: Ada Lovelace
+
+ section3:
+  Biographie:
+  Ada est la seule fille légitime du poète George Gordon Byron et de son épouse Annabella Milbanke, une femme intelligente et cultivée, cousine de Caroline Lamb, dont la liaison avec Byron fut à l'origine d'un scandale.
+Byron recherchait une femme dont la fortune paierait ses dettes[réf. nécessaire]. Lady Melbourne (en) lui suggère sa propre nièce, miss Milbanke, mais celle-ci refuse dans un premier temps. L'union est ensuite encouragée par Augusta Leigh, la demi-sœur de Byron, et Byron épouse Annabella en janvier 18151.
+Ada naît en décembre de cette même année. Le premier prénom d'Ada, Augusta, aurait été choisi en hommage à la demi-sœur de Byron avec qui il aurait eu des relations incestueusesSwade 1. Le prénom Ada aurait  été choisi par Byron lui-mêmeStein, car il était « court, antique et vocalique ».
+À la suite de quatre tentatives de viol en état d'ivresse de la part de ByronSwade 1, Annabella le quitte le 16 janvier 1816, et garde Ada avec elle. Le 21 avril, Byron signe l'acte de séparation, puis quitte le Royaume-Uni pour toujours. Il ne les revoit jamais.
+notoriété:
+ title: Nototriété posthume
+ texte: Tombée dans l'oubli, Ada Lovelace et ses travaux furent exhumés avec l'avènement de l'informatique.
+Et c'est en son hommage qu'on a appelé Ada le langage de programmation conçu entre 1977 et 1983 pour le département de la Défense américain (DoD) par une équipe de CII Honeywell Bull dirigée par le Français Jean Ichbiah.
+L'idée de choisir le nom Ada est attribuée à Jack Cooper, du Naval Material Command, et remonte à juillet 1978.
+Ada Lovelace est considérée par les historiens de l'informatique comme la première personne de l'histoire à avoir programmé. On peut voir notamment son portrait sur les hologrammes d'authentification des produits Microsoft.
+L'entreprise Nvidia a également décidé de nommer sa nouvelle architecture graphique sous le nom d'Ada Lovelace, pour sa nouvelle série de cartes graphiques RTX 4000.
+L'astéroïde (232923) Adalovelace porte son nom.
+La cryptomonnaie Cardano porte également son nom en hommage, le jeton s'appelle Ada et la plus petite fraction indivisible s'appelle un Lovelace.
+L'École polytechnique fédérale de Lausanne baptise place Ada Lovelace la place de l'entrée nord.
+L'Ada Lovelace Day est un événement annuel organisé le deuxième mardi d'octobre pour célébrer et sensibiliser aux contributions des femmes aux sciences, et notamment en technologie, en ingénierie et en mathématiques.
+
+ HAPPY CODING:smile:
