@@ -3,7 +3,7 @@
 > deux vues: une desktop et une mobile
  le site est responsive
 
-## archtecture
+## architecture
 
 - une seule page
 - SERVEUR FTP
