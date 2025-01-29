@@ -41,28 +41,9 @@ section {
 * DESCRIPTION  ----------------------
 */
 .description {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- gap: 1em;
+ column: 1/3;
  @media (min-width: 640px) {
-   flex-direction: row;
- }
- & img {
-   width: 50%;
-   margin-inline: auto;
-   @media (min-width: 640px) {
-     width: 100%;
-   }
- }
-
-}
-.description-content {
- columns: auto, 1;
- column-gap: .5em;
- @media (min-width: 640px) {
-   columns: 300px, 2;
-   column-gap: 1em;
+   column: 1/2;
  }
 }
 
