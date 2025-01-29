@@ -1,0 +1,37 @@
+/* 
+* ADA Style: section
+*/
+
+section {
+}
+
+.intro {
+  background-image: url(../img/bg-header.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1em;
+
+  & div {
+    width: 50%;
+  }
+  & p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  & h2 {
+    font-size: 38px;
+    display: block;
+    font-weight: 900;
+  }
+  & span {
+    display: block;
+    font-size: 20px;
+  }
+}
+
+.description {
+}
+.gallery {
+}

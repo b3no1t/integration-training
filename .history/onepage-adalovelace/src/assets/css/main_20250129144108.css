@@ -1,0 +1,71 @@
+/* 
+* ADA Style 
+*/
+* {
+  font-family: -apple-system,"Open Sans",  BlinkMacSystemFont,
+    Roboto, Oxygen, Ubuntu, Cantarell,"Helvetica Neue", sans-serif;
+}
+
+main > * + * {
+  margin-top: 2em;
+  border: 1px solid red;
+}
+
+.main-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: .5rem 1f .5rem;
+  gap: 1em;
+  @media (min-width: 640px) {
+    max-width: 1300px;
+    grid-template-columns: 1.5rem 1f 1.5rem;
+  }
+}
+
+/* layout*/
+.full-width {
+  width: 100%;
+
+  margin: 0;
+  background-image: url(../../assets/img/ada-illu2.png);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+
+
+
+
+/*content*/
+
+.content {
+  font-size: 26px;
+  line-height: 42px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+
+h2 {
+  font-size: 2rem;
+  line-height: 23px;
+}
+p {
+  font-size: 1.2rem;
+}
+/* SECTION DESCRIPTION */
+.description{
+ & p{
+  columns:320px 2;
+  column-gap: 2rem;
+  font-size: 1rem;
+ }
+}
+.container-description{
+ display: flex;
+ justify-content: space-between;
+ & p{
+  flex-basis: 66%;
+ }
+ & img{}
+}
