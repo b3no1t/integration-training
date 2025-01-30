@@ -62,7 +62,7 @@ p {
 }
 /* SECTION DESCRIPTION */
 .description{
-
+  margin-top: 2em;
  & p{
   columns:320px 2;
   column-gap: 2rem;
@@ -73,7 +73,7 @@ p {
 .container-description{
  display: flex;
  justify-content: space-between;
-
+ 
  & p{
   flex-basis: 66%;
  }

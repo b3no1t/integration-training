@@ -123,29 +123,3 @@ section {
     font-weight: bolder;
   }
 }
-.bio, .noto {
-  columns: 300px 3;
-  & h2 {
-    column-span: all;
-    font-size: 38px;
-    display: block;
-    font-weight: 900;
-  }
-  & p {
-    font-size: 1rem;
-    line-height: 1.25;
-  }
-  @media (min-width: 640px) {
-  }
-}
-
-footer{
-  margin-top: 2em;
-  height: 470px;
-  background-image: url(../img/ada-illu2.png);
-  background-position: -10em center;
-  @media (min-width: 640px) {
-    background-image: url(../img/papierpeint.png);
-    height: 230px;
-  }
-}

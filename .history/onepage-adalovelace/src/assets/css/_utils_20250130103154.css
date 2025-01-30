@@ -1,0 +1,10 @@
+.hide-for-large{
+ @media (min-width: 640px) {
+  display: none;
+ }
+}
+.hide-for-small{
+ @media (max-width: 640px) {
+  display: none;
+ }
+}

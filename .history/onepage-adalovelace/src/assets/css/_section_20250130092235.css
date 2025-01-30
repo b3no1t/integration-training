@@ -45,13 +45,9 @@ section {
   flex-direction: column;
   justify-content: space-between;
   gap: 1em;
-
   @media (min-width: 640px) {
     flex-direction: row;
-    margin-top: 2em;
-    max-width: 1150px;
-    margin-inline: auto;
-   }
+  }
   & img {
     width: 50%;
     margin-inline: auto;
@@ -72,7 +68,7 @@ section {
   }
   & p {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 23px;
   }
   @media (min-width: 640px) {
     columns: 300px 2;
@@ -82,70 +78,15 @@ section {
 
 .gallery {
   display: flex;
-  justify-content:space-around;
   flex-direction: column;
-  gap: 1em;
-  @media (min-width: 640px) {
-    flex-direction: row;
-  }
+  flex-basis: 100%;
+  flex: 1;
   & img {
+    width: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
-
-  }
-}
-
-
-.citation{
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  @media (min-width: 640px) {
-    flex-direction: row;
-    background-position: center center;
-    background-size: cover;
-    background-image: url(../img/ada-illu2.png);
-    justify-content: flex-end;
-    background-size: cover;
-  }
-  & img{
-    object-fit: contain;
-    height: 100%;
-  }
-  & p {
-    flex-basis: 100%;
-  @media (min-width: 640px) {
-
-    padding: 8rem;
-      flex-basis: 50%;
+    @media (min-width: 640px) {
+      width: 100%;
     }
-
-    font-weight: bolder;
-  }
-}
-.bio, .noto {
-  columns: 300px 3;
-  & h2 {
-    column-span: all;
-    font-size: 38px;
-    display: block;
-    font-weight: 900;
-  }
-  & p {
-    font-size: 1rem;
-    line-height: 1.25;
-  }
-  @media (min-width: 640px) {
-  }
-}
-
-footer{
-  margin-top: 2em;
-  height: 470px;
-  background-image: url(../img/ada-illu2.png);
-  background-position: -10em center;
-  @media (min-width: 640px) {
-    background-image: url(../img/papierpeint.png);
-    height: 230px;
   }
 }

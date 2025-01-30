@@ -142,10 +142,9 @@ section {
 footer{
   margin-top: 2em;
   height: 470px;
-  background-image: url(../img/ada-illu2.png);
-  background-position: -10em center;
+  background-image: url(../img/papierpeint.png);
   @media (min-width: 640px) {
-    background-image: url(../img/papierpeint.png);
     height: 230px;
+    background-image: url(../img/ada-illu2.png);
   }
 }

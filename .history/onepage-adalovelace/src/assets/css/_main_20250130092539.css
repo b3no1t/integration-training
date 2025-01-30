@@ -62,18 +62,15 @@ p {
 }
 /* SECTION DESCRIPTION */
 .description{
-
  & p{
   columns:320px 2;
   column-gap: 2rem;
   font-size: 1rem;
  }
 }
-
 .container-description{
  display: flex;
  justify-content: space-between;
-
  & p{
   flex-basis: 66%;
  }

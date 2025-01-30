@@ -6,13 +6,6 @@
     Roboto, Oxygen, Ubuntu, Cantarell,"Helvetica Neue", sans-serif;
 }
 
-.wrapper{
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding-inline: 1em;
-}
-
 main > * + * {
   margin-top: 2em;
   border: 1px solid red;
@@ -62,18 +55,15 @@ p {
 }
 /* SECTION DESCRIPTION */
 .description{
-
  & p{
   columns:320px 2;
   column-gap: 2rem;
   font-size: 1rem;
  }
 }
-
 .container-description{
  display: flex;
  justify-content: space-between;
-
  & p{
   flex-basis: 66%;
  }

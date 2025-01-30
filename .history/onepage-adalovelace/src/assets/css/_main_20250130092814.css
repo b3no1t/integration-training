@@ -62,7 +62,9 @@ p {
 }
 /* SECTION DESCRIPTION */
 .description{
-
+  @media screen and (min-width: 640px) {    
+  margin-top: 2em;
+  }
  & p{
   columns:320px 2;
   column-gap: 2rem;
