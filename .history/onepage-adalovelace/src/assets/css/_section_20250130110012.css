@@ -1,9 +1,8 @@
 /* 
-* ADA Style: sections
+* ADA Style: section
 */
-/* 
-* INTRO  ----------------------
-*/
+
+
 .intro {
   background-image: url(../img/bg-header.png);
   background-size: cover;
@@ -78,9 +77,7 @@
     column-gap: 1em;
   }
 }
-/* 
-* GALLERY  ----------------------
-*/
+
 .gallery {
   display: flex;
   justify-content:space-around;
@@ -95,9 +92,7 @@
 
   }
 }
-/* 
-* CITATION  ----------------------
-*/
+
 
 .citation{
   display: flex;
@@ -126,9 +121,6 @@
     font-weight: bolder;
   }
 }
-/* 
-* BIO, NOTO  ----------------------
-*/
 .bio, .noto {
   columns: 300px 3;
   & h2 {
